@@ -1,0 +1,731 @@
+<%- include('../partials/header.ejs') %>
+
+<!-- Arvore -->
+<section  class="arv_body">
+    <h2>Página inicial > Suporte > Moldura Touchscreen Unionboard</h2>
+</section>
+
+<!-- Div container principal -->
+<div class="container_body">
+
+    <!-- Menu Lateral -->
+    <aside class="indiceLateral">
+        <details>
+            <summary>
+                <a href="#comoInstalar_Moldura" onclick="abrirElementoMenu('comoInstalar_Moldura')">Como instalar a Moldura</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#etapasDaInstalacao_Moldura" onclick="abrirElementoMenu('etapasDaInstalacao_Moldura')"> Etapas da instalação da moldura</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#molduraVertical" onclick="abrirElementoMenu('molduraVertical')" > Como instalar a moldura na vertical</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#telaEstendida_Moldura" onclick="abrirElementoMenu('telaEstendida_Moldura')"> Como utilizar a moldura em forma independente de outra tela</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#espelhoMagico_Moldura" onclick="abrirElementoMenu('espelhoMagico_Moldura')"> Como utilizar a moldura para espelho magico</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#prolongadorUSB_Moldura" onclick="abrirElementoMenu('prolongadorUSB_Moldura')">Como utilizar prolongadores USB</a>
+            </summary>
+        </details>
+        
+        <details>
+            <summary>
+                <a href="#instalarSoftware_Moldura" onclick="abrirElementoMenu('instalarSoftware_Moldura')">Como instalar o Software Unionboard</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#calibrarMoldura_Moldura" onclick="abrirElementoMenu('calibrarMoldura_Moldura')"> Como calibrar a moldura</a>
+            </summary>
+        </details>
+
+        <details>
+            <summary>
+                <a href="#utilizarSoftware_Moldura" onclick="abrirElementoMenu('utilizarSoftware_Moldura')"> Como utilizar o software Unionboard</a>
+            </summary>
+        </details>
+        
+        <details>
+            <summary>
+                <a href="#requisitosDoSistema_Moldura" onclick="abrirElementoMenu('requisitosDoSistema_Moldura')"> Requisitos do Sistema</a>
+            </summary>
+        </details>
+        
+        <details>
+            <summary>
+                <a href="#duvidasFrequentes"> Perguntas Frequentes</a>
+            </summary>
+        </details>
+    </aside>
+
+    <!-- Conteudo Principal -->
+    <main>
+        <!-- Como instalar a moldura-->
+        <div class="sub_Topic">
+            <div class="container_flexbox"  >
+                <div id="comoInstalar_Moldura" class="titles " onclick="obterIdDivClicada(event)">
+                    Como instalar a Moldura
+                </div>
+                <div>
+                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                </div>
+            </div>
+            <hr>
+
+            <!-- Instalacao da Moldura -->
+            <div id="molduraVertical_Moldura" data-parametro="especifico" class="titulos-artigos">
+                
+                <div id="InstalarMolduraPadrao_Moldura" class="InstalarMolduraPadrao">
+                    <div class="div_paragraph">
+                        <h5 class="subTitles">Instalação padrão:</h5>
+                        <p class="paragraph_body"><strong>Materiais necessarios para a instalação:</strong></p>
+                        <ul>
+                            <li class="paragraph_body">Chave Phillips</li>
+                            <li class="paragraph_body">Álcool 70% ou isopropílico</li>
+                            <li class="paragraph_body">Flanela de limpeza</li>
+                            <li class="paragraph_body">Lixa</li>
+                            <li class="paragraph_body">Cabo HDMI</li>
+                            <li class="paragraph_body">1x Cabo USB (1,8m)</li>
+                            <li class="paragraph_body">2x Canetas touch</li>
+                        </ul>
+                    </div>
+            
+                    <div id="InstalarMoldura70" class="div_paragraph">
+                        <h5 class="subTitles">Moldura até 70":</h5>
+                        <ul>
+                            <li class="paragraph_body">4x Travas retas</li>
+                            <li class="paragraph_body">2x Travas "L" maiores</li>
+                            <li class="paragraph_body">2x Travas "L" menores</li>
+                            <li class="paragraph_body">16x Parafusos (12 já fixados)</li>
+                            <li class="paragraph_body">2x Cinta com catraca</li>
+                        </ul>
+                    </div>
+            
+                    <div class="div_paragraph" id="InstalarMoldura75">
+                        <h5 class="subTitles">Molduras 75" ou superior:</h5>
+                        <ul>
+                            <li class="paragraph_body">6x Travas retas</li>
+                            <li class="paragraph_body">3x Travas "L" maiores</li>
+                            <li class="paragraph_body">3x Travas "L" menores</li>
+                            <li class="paragraph_body">18x Parafusos (12 já fixados)</li>
+                            <li class="paragraph_body"> 3x Cinta com catraca</li>
+                        </ul>
+                    </div>
+            
+                    <div class="imagens">
+                        <img src="../../assets/img/materiais necesssarios.PNG" alt="imagem">
+                        <img src="../../assets/img/acompanha.PNG" alt="imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Etapas da instalação -->
+        <div  class="sub_Topic">
+            <div class="container_flexbox" >
+                <div  id="etapasDaInstalacao_Moldura" class="titles" onclick="obterIdDivClicada(event)">
+                    Etapas da instalação da moldura
+                </div>
+                <div>
+                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                </div>
+            </div>
+            <hr>
+
+            <div id="Etapas_Moldura" data-parametro="especifico" class="titulos-artigos sub_Topic">
+                <div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body"> 1 - Retire os plasticos da borda da TV (se houver).</p>
+                        <img src="../../assets/img/retire os platicos.PNG" alt="imagens">
+                    </div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body"> 2 - Antes de realizar a instalação recomendamos que se faça um teste geral do
+                            sistema. Teste a Televisão, a moldura e o computador. Siga os passos abaixo:</p>
+                        <ul>
+                            <li class="paragraph_body">Apoie a TV sobre uma superfície plana;</li>
+                            <li class="paragraph_body">Alinhe a moldura sobre a televisão com a logo UnionBoard para cima e o plug
+                                USB para baixo (Não remova a proteção das fitas dupla face);</li>
+                            <li class="paragraph_body">Conecte o cabo USB na Moldura e no computador;</li>
+                            <li class="paragraph_body">Conecte o cabo HDMI no computador e na televisão;</li>
+                            <li class="paragraph_body">Lige o computador e a TV. Clique na tela e navegue pelo sistema para testar o
+                                toque e a imagem;</li>
+                            <li class="paragraph_body">Ainda não é necessário baixar o software UnionBoard para realizar o teste
+                                inicial, apenas navegue pelo PC;</li>
+                        </ul>
+                        <img src="../../assets/img/imagem 4.PNG" alt="imagem" width="600">
+                    </div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">3 - Nas bordas da TV, no local onde a moldura será colada, passe a lixa suavemente
+                            para retirar o verniz (imagem 1). Após, faça a limpeza com a flanela e o álcool isopropílico para tirar
+                            toda a poeira do local (imagem 2). Esta etapa é essencial para promover a maior fixação da moldura na
+                            TV. Caso a TV for maior que a moldura, como o caso das TVs antigas (imagem 3), delimite a área exterrna
+                            da moldura com fita crepe, lixe a área de contato (imagem 4) e realize a limpeza.</p>
+                        <div class="imagens">
+                            <img src="../../assets/img/tv convencional.PNG" alt="imagem" width="300">
+                            <img src="../../assets/img/tv antiga.PNG" alt="imagem" width="300">
+                        </div>
+                    </div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">4 - Limpe a parte interna do vidro da moldura (o lado das fitas dupla face) com um
+                            pano levemente umedecido com álcool e depois passe um pano seco. Faça o mesmo procedimento com a TV.
+                            Após a fixação da moldura não sera mais possivel limpar esta área. Certifique-se de remover toda a
+                            poeira e marcas de dedos quando houver.</p>
+                        <img src="../../assets/img/fita dupla face.PNG" alt="imagem" width="600">
+                    </div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">5 - Posicione a moldura sobre a TV ligada sem remover a proteção das fitas dupla
+                            face (imagem 1). No canto superior direito da moldura, insira a caneta para que se crie um espaço entre
+                            a moldura e a TV (imagem 2). Nas extremidades das fitas dupla face desse canto, retire um pedaço das
+                            proteções (sem contar) e deixe as sobras para fora (imagem 3). Retire a caneta e alinhe a parte interna
+                            da moldura com a imagem da TV. Repita todo o processo no canto inferior esquerdo da moldura (diagonal
+                            oposta). Após colar os dois cantos da moldura, puxe a proteção das fitas com uma mão e com a outra
+                            realize o movimento de levantar levemente a moldura (sem descolar os cantos) conforme for puxando a fita
+                            (imagem 4). Após colar a moldura na TV, aplique pressão com as mãos sobre todas as extremidades da
+                            moldura.</p>
+                        <img src="../../assets/img/passo a passo fixacao.PNG" alt="imagem">
+                    </div>
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">6 - Apoie a televisão em uma superfície plana com a tela para baixo, e vamos
+                            iniciar o segundo processo de fixação.</p>
+                        <img src="../../assets/img/superficie plana.PNG" alt="imagem" width="300">
+                        <div class="div_paragraph">
+                            <p class="paragraph_body "> Existem 3 tipos de borda de televisão: borda grossa (TV antiga), borda
+                                normal (TV convencional) e borda ultrafina (TVs mais modernas). Verifique a borda da sua televisão
+                                para prosseguir com a instalação adequada. Confira abaixo os tipos de travas metalica. ATENÇÂO, cada
+                                tipo de borda utilizará uma composição diferente.</p>
+                            <img src="../../assets/img/imagem das travinhas.PNG" alt="imagem" width="600">
+                        </div>
+                    </div>
+            
+            
+            
+                    <!-- Fixação Para TV -->
+                    <!-- ======================================================================================== -->
+                    <div class="div_paragraph">
+                        <div id="fixacaoTvBordaFina_Moldura" class="sub_Topic">
+                            <div class="container_flexbox">
+                                <div>
+                                    <h5 class="subTitles">Fixação para TV com borda ultrafina </h5>
+                                </div>
+            
+                                <div>
+                                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                                </div>
+                            </div>
+                        </div>
+            
+                        <hr>
+                        <div id="bordaFina_Moldura" data-parametro="especifico" class="titulos-artigos">
+                            <p class="paragraph_body">Caso sua TV for um modelo com bordas ultrafinas (bordas muito menores que a
+                                moldura): siga os passos a seguir. Separe as travas indicadas (Imagem 1), na parte superior da TV
+                                realize a fixação da trava "L" menor na moldura utilizando os 03 (três) parafusos (Imagem 2), após
+                                realize a fixação da trava "L" maior utilizando os 02 (dois) parafusos (Imagem 3), na parte inferior
+                                da TV realize a fixação das travas retas na moldura com os 03 (três) parafusos, para finalizar passe
+                                as cintas de segurança conforme a indicação a seguir.</p>
+                            <img src="../../assets/img/passo a passo trava.PNG" alt="imagem" width="600">
+                        </div>
+                    </div>
+            
+                    <!-- Fixação para TV com borda -->
+                    <!-- ======================================================================================== -->
+                    <div class="div_paragraph">
+                        <div id="fixacaoTvBordaConvencional_Moldura" class="sub_Topic">
+                            <div class="container_flexbox">
+                                <div>
+                                    <h5 class="subTitles">Fixação para TV com borda convencional </h5>
+                                </div>
+                                <div><img class="arrow_dropwdow" src="../../assets/img/down-arrow.png"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="bordaConvencional_Moldura" data-parametro="especifico" class="titulos-artigos">
+                            <p class="paragraph_body">Caso sua TV for um modelo convencional (bordas com o tamanho próximo ao da
+                                moldura): Parafuse as travas retas nos respectivos pontos de fixação, com a abertura maior virada
+                                para a trasiera da TV (para a passagem da cinta).</p>
+                            <img src="../../assets/img/fixacao com tv convencional.PNG" alt="imagem" width="600">
+                        </div>
+                    </div>
+            
+                    <!-- Fixação para TV com borda grossa -->
+                    <!-- ======================================================================================== -->
+                    <div class="div_paragraph">
+                        <div id="FixacaoTvBordaGrossa_Moldura" class="sub_Topic">
+                            <div class="container_flexbox">
+                                <div>
+                                    <h5 class="subTitles">Fixação para TV com borda grossa </h5>
+                                </div>
+                                <div><img class="arrow_dropwdow" src="../../assets/img/down-arrow.png"></div>
+                            </div>
+                        </div>
+                        <hr>
+            
+                        <div id="bordaGrossa_Moldura" data-parametro="especifico" class="titulos-artigos">
+                            <p class="paragraph_body">Caso sua TV for um modelo mais antigo (bordas maiores que as da moldura):
+                                Parafuse as travas "L" alinhadas com a parte frontal da moldura nos respectivos pontos de fixação,
+                                com a abertura maior virada para a parte da frente da TV (para a passagem da cinta).</p>
+                            <img src="../../assets/img/fixacao com tv borda grossa.PNG" alt="imagem" width="600">
+                        </div>
+                    </div>
+            
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">7 - Passe a cinta com catraca por dentro das aberturas da trava superior e
+                            inferior, de forma que a catraca fique de fácil acesso e que a sobra da corda fique para baixo conforme
+                            a figura abaixo. Repita o procedimento com todos os pares de travas (até 70" = 2 cintas) (75" ou
+                            superior = 3 cintas).</p>
+                        <img src="../../assets/img/cinta moldura.PNG" alt="imagem" width="600">
+                    </div>
+            
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">8 - Regule o nível de tensão nas travas puxando a corda e travando a catraca.
+                            Aplique uma tensão moderada de forma que a cinta fique esticada sem pressionar excessivamente as travas.
+                        </p>
+                        <img src="../../assets/img/tutorial cinta.PNG" alt="imagem" width="600">
+                    </div>
+            
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">9 - Deixe a TV com a parte da tela para baixo em uma superfície plana durante 24h
+                            para fixação completa da fita dupla face. Após, ligue o cabo USB da moldura no PC e o cabo HDMI do PC na
+                            Televisão.</p>
+                        <img src="../../assets/img/tela pra baixo.PNG" alt="imagem" width="600">
+                    </div>
+            
+                    <div class="div_paragraph">
+                        <p class="paragraph_body">10 - Realize a fixação da TV touchscreen no suporte de parede ou no rack móvel
+                            UnionBoard. Faça o download do software e calibrador em seu computador. Se necesssário, realize a
+                            calibração do touchscreen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Como instalar a moldura unionboard na vertical -->
+        <div  class="sub_Topic">
+            <div class="container_flexbox" >
+                <div id="molduraVertical" onclick="obterIdDivClicada(event)" class="titles ">
+                    Como instalar a moldura unionboard na vertical
+                </div>
+                <div><img class="arrow_dropwdow" src="../../assets/img/down-arrow.png"></div>
+            </div>
+            <hr>
+
+            <div id="molduraVerticalArtigo" data-parametro="especifico" class="titulos-artigos">
+                <ul>
+                    <li class="paragraph_body">
+                        Após a instalação da moldura faça a calibragem dela no modo paisagem de acordo com o passo a passo: <a
+                            href="">Como Calibrar?</a>;
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Após a calibração vá na área de trabalho, clique com o botão direito e clique em *Configurações de Exibição*
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Dentro das configurações vá em *Orientação de Tela* e muda para Retrato
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Como utilizar a moldura unionboard de forma independente da outra tela -->
+        <div  class="sub_Topic">
+                <div class="container_flexbox" >
+                    <div id="telaEstendida_Moldura" onclick="obterIdDivClicada(event)" class="titles ">
+                        Como utilizar a moldura unionboard de forma independente da outra tela
+                    </div>
+                    <div>
+                        <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                    </div>
+                </div>
+            <hr>
+
+                <div id="tela_Estendida_Moldura" data-parametro="especifico" class="titulos-artigos">
+                <ul>
+                    <li class="paragraph_body">
+                        Após a instalação da moldura faça a calibragem dela no modo paisagem de acordo com o passo a passo: <a href="">Como Calibrar?</a>
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Aperte as teclas Win + P
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Selecione "Estender Tela"
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Vá na área de trabalho, clique com o botão direito e clique em *Configurações de Exibição*
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Selecione a tela da moldura
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="paragraph_body">
+                        Aperte em *Definir como monitor principal*
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Espelho Magico -->
+        <div  class="sub_Topic">
+                <div class="container_flexbox" >
+                    <div id="espelhoMagico_Moldura" onclick="obterIdDivClicada(event)" class="titles">
+                        Como utilizar a moldura unionboard para espelho magico
+                    </div>
+                    <div><img class="arrow_dropwdow" src="../../assets/img/down-arrow.png"></div>
+                </div>
+                
+            <hr>
+            <div id="espelho_Magico_Moldura" data-parametro="especifico" class="titulos-artigos">
+                <p class="subTitles">A moldura UnionBoard é a melhor opção popular para quem deseja criar um espelho mágico personalizado. Para utilizar a moldura UnionBoard para o seu espelho mágico, siga os seguintes passos:</p>
+                <ul>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Selecione uma moldura UnionBoard com as dimensões adequadas para o seu espelho. Você pode encontrar essas molduras emlojas de materiais de construção ou online.</p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Utilize uma película reflexiva no vidro da moldura. Certifique-se de que a película seja do tamanho correto para caber na moldura.</p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Instale um monitor de tela plana atrás do espelho.</p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Instale o software do espelho mágico em um computador e conecte-o ao monitor.</p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Fixe o monitor e o computador atrás da moldura usando suportes de montagem. Certifique-se de que todos os cabos estejam conectados corretamente.</p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Monte a moldura na parede ou em um suporte de montagem para exibir o seu espelho mágico personalizado.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ProlongadorUsb -->
+        <div  class="sub_Topic">
+                <div class="container_flexbox" >
+                    <div id="prolongadorUSB_Moldura" onclick="obterIdDivClicada(event)" class="titles">
+                        Como utilizar prolongadores USB
+                    </div>
+                    <div>
+                        <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                    </div>
+                </div>
+            <hr>
+                <div id="prolongando_Usb_Moldura" data-parametro="especifico" class="titulos-artigos">
+                    <h5 class="subTitles">Para utilizar um prolongador USB para conectar em um computador ao touchscreen siga os seguintes
+                        passos:</h5>
+                    <ul>
+                        <li class="paragraph_body">
+                            <p class="paragraph_body">Escolha um prolongador USB ativo.
+                            </p>
+                        </li>
+                        <li class="paragraph_body">
+                            <p class="paragraph_body">Conecte uma extremidade do prolongador USB à porta USB na sua moldura touchscreen.</p>
+                        </li>
+                        <li class="paragraph_body">Conecte a outra extremidade do prolongador USB à porta USB do seu computador.Instale um
+                            monitor de tela plana atrás do espelho.</p>
+                        </li>
+                        <li class="paragraph_body">
+                            <p class="paragraph_body">Instale o software do espelho mágico em um computador e conecte-o ao monitor.</p>
+                        </li>
+                        <li class="paragraph_body">
+                            <p class="paragraph_body">Verifique se a conexão está funcionando corretamente. Se o dispositivo externo não
+                                estiver reconhecendo a moldura touchscreen, pode ser necessário instalar um driver ou software adicional
+                                para configurar a conexão.</p>
+                        </li>
+                        <li class="paragraph_body">
+                            <p class="paragraph_body">Verifique se o toque permanece estável. Alguns prolongadores USB podem apresentar uma
+                                perda de sinal ou interferência, o
+                                que pode afetar a sensibilidade do touchscreen. Se isso acontecer, experimente diferentes comprimentos de
+                                cabo ou tente
+                                trocar a porta USB.</p>
+                        </li>
+                    </ul><br>
+                    
+                    <p class="paragraph_body">Lembre-se de que o uso de prolongadores USB pode afetar o desempenho da sua moldura
+                        touchscreen. Certifique-se de
+                        escolher um prolongador USB de qualidade. Qualquer dúvida que for surgir entre em contato com nosso suporte pelo
+                        whatsapp.</p><br>
+                
+                    <!-- ============== Prolongador Ativo Via Rede ===================== -->
+                    <div id="prolongadorViaRede">
+                        <h5 class="subTitles">Prolongador USB Ativo via Rede</h5> 
+                        <div class="">
+                            <p class="paragraph_body">Se você deseja utilizar uma conexão de rede para conectar um dispositivo externo à sua moldura touchscreen, pode
+                            utilizar um prolongador ativo USB via rede. Esse tipo de dispositivo é projetado para estender a conexão USB por meio de
+                            uma rede de computadores, permitindo que você se conecte a um dispositivo externo de qualquer lugar da rede. Para isso,
+                            siga os seguintes passos:</p><br>
+                        </div>
+
+                        <ul>
+                            <li class="paragraph_body">
+                                <p class="paragraph_body">Conecte uma extremidade do prolongador ativo USB via rede à porta USB na sua moldura touchscreen.
+                                </p>
+                            </li>
+                            <li class="paragraph_body">
+                                <p class="paragraph_body">Conecte a outra extremidade do prolongador ativo USB via rede a um dispositivo de rede, como um switch ou um roteador.
+                                </p>
+                            </li>
+                            <li class="paragraph_body">
+                                <p class="paragraph_body">Conecte o dispositivo externo à rede e configure a conexão de rede para se comunicar com o dispositivo que está
+                                conectado à sua moldura touchscreen.
+                                </p>
+                            </li>
+                            <li class="paragraph_body">
+                                <p class="paragraph_body">Verifique se a conexão está funcionando corretamente. Se o dispositivo externo não estiver reconhecendo a moldura
+                                touchscreen, pode ser necessário instalar um driver ou software adicional para configurar a conexão.
+                                </p>
+                            </li>
+                            <li class="paragraph_body">
+                                <p class="paragraph_body">Verifique se a qualidade do sinal está boa. Alguns prolongadores ativos USB via rede podem apresentar uma perda de sinal
+                                ou interferência, o que pode afetar a sensibilidade do touchscreen. Se isso acontecer, experimente diferentes
+                                configurações de rede ou tente ajustar a posição dos dispositivos para minimizar a interferência.
+                                </p>
+                            </li>
+                        </ul>
+                        <br>
+                        
+                        <p class="paragraph_body">Lembre-se de que o uso de prolongadores ativos USB via rede pode afetar o desempenho da sua moldura touchscreen.
+                        Certifique-se de escolher um prolongador ativo USB via rede de qualidade e de testar a conexão antes de utilizar a
+                        Moldura Touchscreen.</p><br>
+
+                        
+                    </div>
+                </div>
+        </div>
+
+        <!-- Instalar Software -->
+        <div  class="sub_Topic">
+            <div class="container_flexbox" >
+                <div id="instalarSoftware_Moldura" onclick="obterIdDivClicada(event)" class="titles" >
+                    Como instalar o software
+                </div>
+                <div>
+                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                </div>
+            </div>
+            
+            <hr>
+            <div id="install_software_Moldura" data-parametro="especifico" class="titulos-artigos">
+            <!-- ============== Software Windows ===================== -->
+            <div id="softwareWindows" class="div_paragraph">
+                    <div class="div_paragraph">
+                        <h5 class="subTitles">Como instalar o software no sistema Windows:</h5>
+                        
+                        <h5 class="subTitles">*Observações*</h5>
+                        <ul>
+                            <li class="paragraph_body">
+                                Para garantia de extração dos arquivos de forma correta, tenha o Winrar instalado
+                            </li>
+                            <li class="paragraph_body">
+                                Esteja no perfil de administrador, verifique com a direção caso as instalações sejam limitadas
+                            </li>
+                            <li class="paragraph_body">
+                                Em caso de necessidade de suporte, tenha instalado o AnyDesk no perfil de administrador e já tenha em mãos os dados necessários caso tenha limitações estipuladas pela direção no uso dos computadores
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="div_paragraph" id="softwarePro">
+                    <h5 class="subTitles">Para instalação do software Pro no sistema Windows:</h5>
+                        <ul>
+                            <li class="paragraph_body">Acesse o link <a href="https://showdeimagem.com.br/UnionBoardPro.zip">https://showdeimagem.com.br/UnionBoardPro.zip</a></li>
+                            <li class="paragraph_body">Crie uma pasta em Documentos</li>
+                            <li class="paragraph_body">Extraia os arquivos do software baixado para a pasta criada</li>
+                            <li class="paragraph_body">Entre na pasta e execute o arquivo UnionBoardPro.exe. (Atenção ao anti-virus, ele pode alertar um falso positivo de virus)</li>
+                            <li class="paragraph_body">Aperte em Sim para solicitações e aguarde o aplicativo ser instalado</li>
+                            <li class="paragraph_body">Após isso você verá um novo ícone na área de trabalho, basta executar o software</li>
+                        </ul>
+                </div>
+                <div class="div_paragraph" id="softwarePrime">
+                    <h5 class="subTitles">Para instalação do software Prime no Windows (Apenas para escolas Estaduais de São Paulo):</h5>
+                        <ul>
+                            <li class="paragraph_body">Entre em contato com nossa <a href="https://api.whatsapp.com/send?phone=551129462668">Central de atendimento</a></li>
+                            <li class="paragraph_body">Informe a Escola e encaminhe a nota fiscal e o número de identificação da moldura, localizada na parte inferior (Nota Fiscal deve estar no nome da Escola)</li>
+                            <li class="paragraph_body">Tenha instalado o AnyDesk no perfil de administrador</li>
+                            <li class="paragraph_body">Passe os dados de acesso para um de nossos representantes completar a instalação com a chave de acesso</li>
+                        </ul>
+                </div>
+            <!-- ============== Software Mac ===================== -->
+            <div id="softwareMac" class="div_paragraph">
+                <h5 class="subTitles">Como instalar o software no sistema Mac:</h5>
+            </div>
+                <div class="div_paragraph">
+                    <h5 class="subTitles">*Observações*</h5>
+                    <p class="paragraph_body">- Sistemas Mac recomendados (Big Sur, Catalina e Mojave)</p>
+                </div>
+                <div class="div_paragraph" id="proMac">
+                    <h5 class="subTitles">Para instalação do Software Pro para MAC:</h5>
+                    <ul>
+                        <li class="paragraph_body">Acesse o Link <a href="https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.3/OpenBoard-1.6.3.dmg">https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.3/OpenBoard-1.6.3.dmg</a></li>
+                        <li class="paragraph_body">Clique com o botão direito em cima do arquivo e execute-o</li>
+                        <li class="paragraph_body">Após isso verá um novo ícone em sua área de trabalho, basta abrir para utilizar</li>
+                    </ul>
+            </div>
+            <!-- ============== Software Linux ===================== -->
+            <div id="softwareLinux" class="div_paragraph">
+                <h5 class="subTitles">Como instalar o software no sistema Linux:</h5>
+            </div>
+                <div class="div_paragraph">
+                    <p class="subTitles">*Observações*</p>
+                    <p class="paragraph_body">- Apenas para sistemas Ubuntu acima de 20.04</p>
+                </div>
+                <div class="div_paragraph" id="softwareLinuxPro">
+                    <h5 class="subTitles">Para instalação do Software Pro para Linux:</h5>
+                    <ul>
+                        <li class="paragraph_body">Acesse o Link <a href="https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.4/openboard_ubuntu_22.04_1.6.4_amd64.deb">https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.4/openboard_ubuntu_22.04_1.6.4_amd64.deb</a> (Para sistemas 22.04) ou <a href="https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.4/openboard_ubuntu_20.04_1.6.4_amd64.deb ">https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.4/openboard_ubuntu_20.04_1.6.4_amd64.deb</a> (Para Sistemas 20.04)</li>
+                        <li class="paragraph_body">Clique com o botão direito em cima do arquivo e execute-o</li>
+                        <li class="paragraph_body">Após isso verá um novo ícone em sua área de trabalho, basta abrir para utilizar</li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+
+        <!-- Calibrador -->
+        <div  class="sub_Topic">
+            <div  class="container_flexbox">
+                <div id="calibrarMoldura_Moldura" onclick="obterIdDivClicada(event)" class="titles">
+                    Como calibrar a Moldura
+                </div>
+                <div>
+                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                </div>
+            </div>            
+            <hr>
+            <div id="calibrar_moldura_Moldura" data-parametro="especifico" class="titulos-artigos">
+                <h5 class="subTitles">Para calibrar a moldura touchscreen, siga os seguintes passos:</h5>
+
+                <ul>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Certifique-se de que a moldura touchscreen esteja ligada e conectada ao dispositivo ao qual está sendo usada.
+                        </p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Abra o software de calibração de touchscreen que está disponível neste link.
+                        </p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Siga as instruções do software de calibração de touchscreen para começar o processo de calibração. Isso envolve tocar em
+                        pontos específicos na tela para que o software possa medir e ajustar a sensibilidade do touchscreen.
+                        </p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Quando solicitado, toque em cada ponto da tela indicado pelo software de calibração. Certifique-se de tocar nos pontos
+                        com precisão e evitar toques muito rápidos ou muito lentos.
+                        </p>
+                    </li>
+                    <li class="paragraph_body">
+                        <p class="paragraph_body">Depois que o processo de calibração estiver concluído, o software exibirá uma mensagem informando que a calibração foi
+                        bem-sucedida. Teste o touchscreen para garantir que ele esteja funcionando corretamente.
+                        </p>
+                    </li>
+                </ul><br>
+                
+                <p class="paragraph_body">Se o touchscreen ainda não estiver funcionando corretamente após a calibração, verifique se há atualizações de software
+                disponíveis para o dispositivo e para a moldura touchscreen. Se o problema persistir, entre em contato com nosso suporte
+                neste link.</p><br>
+            </div>
+        </div>
+
+        <!-- utilizarSoftware -->
+        <div class="sub_Topic">
+            <div  class="container_flexbox">
+                <div id="utilizarSoftware_Moldura"  onclick="obterIdDivClicada(event)" class="titles">
+                    Como utilizar o Software
+                </div>
+                <div>
+                    <img class="arrow_dropwdow" src="../../assets/img/down-arrow.png">
+                </div>
+            </div>
+            
+            <hr>
+            <div id="utilizacao_software_Moldura" data-parametro="especifico" class="titulos-artigos">
+            <p class="paragraph_body">Faça o Download do tutorial do software<a type="download" href="../../public/docs/Tutorial Software.zip"> aqui</a></p>
+            </div>
+        </div>
+
+        <!-- Requisitos do Sistema -->
+        <div  class="sub_Topic">
+            <div class="container_flexbox" >
+                <div id="requisitosDoSistema_Moldura" onclick="obterIdDivClicada(event)" class="titles">
+                    Requisitos do Sistema  unionboard
+                </div>
+                <div><img class="arrow_dropwdow" src="../../assets/img/down-arrow.png"></div>
+            </div>
+            <hr>
+            <div id="requisitos_Moldura" data-parametro="especifico" class="titulos-artigos">
+            <div class="div_paragraph">
+                <p class="paragraph_body">Requisitos recomendados:</p>
+                <ul>
+                    <li class="paragraph_body">Memoria Ram: 8GB</li>
+                    <li class="paragraph_body">Processador: Intel I5 4° Geração</li>
+                    <li class="paragraph_body">Sistema operacional Windows 10 ou superior</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <!-- Duvidas Frequentes -->
+        <div id="duvidasFrequentes" class="duvidasFrequentes" style="margin-top: 10%;">
+            <h1 style="text-align: center;" class="titles">Dúvidas Frequentes sobre a moldura UnionBoard</h1>
+            <div class="div_paragraph">
+                <div class="div_paragraph bg-cinza padding_faq">
+                    <h5 class="subTitles"> 1 - Onde posso fazer o download do Software UnionBoard?</h5>
+                    <p class="paragraph_body"> R:Você pode solicitar o link de download do software através de nosso whatsapp: (11) 2946-2668 ou acesse o site: <a href="https://showdeimagem.com.br/UnionBoardPro.zip">www.showdeimagem.com.br/UnionBoardPro.zip</a>. as molduras acompanham o UnionBoard Software Pro e Color. O UnionBoard Software será disponibilizado para instituições de ensino.</p>
+                </div>
+                <div class="div_paragraph padding_faq">
+                    <h5 class="subTitles "> 2 - Como faço a calibração para o modo retrato (vertical)?</h5>
+                    <p class="paragraph_body"> Para utilizar a Moldura na vertical, é necessário realizar a instalação normalmente conforme o passo a passo informado no manual. Após a moldura instalada na TV, rotacione para o modo retrato de forma que o logo da UnionBoard fique virado para cima e o conector USB fique para baixo. Após, mude a orientação da tela no windows para o modo retrato.</p>
+                </div>
+                <div class="div_paragraph bg-cinza padding_faq">
+                    <h5 class="subTitles">3 - Como é realizada a conexão da moldura interativa?</h5>
+                    <p class="paragraph_body">|: Realize a fixação da Moldura interativa na Televisão. ||: Conecte o Cabo USB da moldura no computador, para habilitar o toque. |||: Conecte o cabo de Imagem (HDMI ou VGA) do computador na Televisão. IV: Pronto, ssua televisão agora é touchscreen.</p>
+                </div>
+                <div class="div_paragraph padding_faq">
+                    <h5 class="subTitles">4 - Moldura não reconhece o toque.</hh>
+                    <p class="paragraph_body">|: Verifique se as conexões estão corretas. ||: Conecte a Moldura direto no PC sem extensões USB. |||: Reinicie o PC. IV: Se precisar utilizar uma extensão USB, opte por uma ativa.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Botão para voltar do Whatsapp -->
+<div class="botaoWpp">
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=551129462668">
+        <img src="../../assets/img/WhatsApp.png" alt="botaoWpp">
+    </a>
+</div>
+
+<!-- Botão para voltar para o topo -->
+<div class="botaoVoltarProTopo">
+    <a href="#topo">Voltar ao Topo</a>
+</div>
+
+<script type="text/javascript" src="../../public/javascripts/config_pesquisa.js"></script>
+
+<%- include('../partials/footer.ejs') %>
+

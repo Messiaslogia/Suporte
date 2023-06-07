@@ -1,0 +1,79 @@
+Materiais necessarios para a instalação:
+        A - Chave Phillips
+        B - Álcool 70% ou isopropílico
+        C - Lixa
+        D - Flanela de limpeza
+        E - cabo HDMI
+
+        Moldura até 70"
+            F - 4x Travas retas
+            G - 2x Travas "L" maiores
+            H - 2x Travas "L" menores
+            I - 16x Parafusos (12 já fixados)
+            J - 2x Cinta com catraca
+        
+        Molduras 75" ou superior
+            F1 - 6x Travas retas
+            G1 - 3x Travas "L" maiores
+            H1 - 3x Travas "L" menores
+            I1 - 18x Parafusos (12 já fixados)
+            J1 - 3x Cinta com catraca
+
+        K - 1x Cabo USB (1,8m)
+        L - 2x Canetas touch
+
+    1 - Retire os plasticos da borda da TV (se houver).
+
+    2 - Antes de realizar a instalação recomendamos que se faça um teste geral do sistema. Teste a Televisão, a moldura e o computador. Siga os passos abaixo:
+        1 - Apoie a TV sobre uma superfície plana;
+        2 - Alinhe a moldura sobre a televisão com a logo UnionBoard para cima e o plug USB para baixo (Não remova a proteção das fitas dupla face);
+        3 - Conecte o cabo USB na Moldura e no computador;
+        4 - Conecte o cabo HDMI no computador e na televisão;
+        5 - Lige o computador e a TV. Clique na tela e navegue pelo sistema para testar o toque e a imagem.
+        6 - Ainda não é necessário baixar o software UnionBoard para realizar o teste inicial, apenas navegue pelo PC.
+    
+    3 - Nas bordas da TV, no local onde a moldura será colada, passe a lixa suavemente para retirar o verniz (imagem 1). Após, faça a limpeza com a flanela e o álcool isopropílico para tirar toda a poeira do local (imagem 2). Esta etapa é essencial para promover a maior fixação da moldura na TV. Caso a TV for maior que a moldura, como o caso das TVs antigas (imagem 3), delimite a área exterrna da moldura com fita crepe, lixe a área de contato (imagem 4) e realize a limpeza.
+
+    4 - Limpe a parte interna do vidro da moldura (o lado das fitas dupla face) com um pano levemente umedecido com álcool e depois passe um pano seco. Faça o mesmo procedimento com a TV. Após a fixação da moldura não sera mais possivel limpar esta área. Certifique-se de remover toda a poeira e marcas de dedos quando houver.
+
+    5 - Posicione a moldura sobre a TV ligada sem remover a proteção das fitas dupla face (imagem 1). No canto superior direito da moldura, insira a caneta para que se crie um espaço entre a moldura e a TV (imagem 2). Nas extremidades das fitas dupla face desse canto, retire um pedaço das proteções (sem contar) e deixe as sobras para fora (imagem 3). Retire a caneta e alinhe a parte interna da moldura com a imagem da TV. Repita todo o processo no canto inferior esquerdo da moldura (diagonal oposta). Após colar os dois cantos da moldura, puxe a proteção das fitas com uma mão e com a outra realize o movimento de levantar levemente a moldura (sem descolar os cantos) conforme for puxando a fita (imagem 4). Após colar a moldura na TV, aplique pressão com as mãos sobre todas as extremidades da moldura.
+
+    6 -
+        1 - Apoie a televisão em uma superfície plana com a tela para baixo, e vamos iniciar o segundo processo de fixação.
+        2 - Existem 3 tipos de borda de televisão: borda grossa (TV antiga), borda normal (TV convencional) e borda ultrafina (TVs mais modernas). Verifique a borda da sua televisão para prosseguir com a instalação adequada. Confira abaixo os tipos de travas metalica. ATENÇÂO, cada tipo de borda utilizará uma composição diferente.
+
+            Trava Reta - 3 furações para os parafusos e 1 passador de Cinta
+            Trava "L" Maior - 2 furações para os parafusos e 1 passador de Cinta
+            Trava "L" Menor - 5 furações para os parafusos
+            Trava "L" - 3 furações para parafusos e 1 passador para cinta. Uso exclusivo para clientes que possuem TVs antigas com as bordas maiores do que a moldura. Requer solicitação.
+
+    Fixação para TV com borda ultrafina
+        Caso sua TV for um modelo com bordas ultrafinas (bordas muito menores que a moldura): siga os passos a seguir. Separe as travas indicadas (Imagem 1), na parte superior da TV realize a fixação da trava "L" menor na moldura utilizando os 03 (três) parafusos (Imagem 2), após realize a fixação da trava "L" maior utilizando os 02 (dois) parafusos (Imagem 3), na parte inferior da TV realize a fixação das travas retas na moldura com os 03 (três) parafusos, para finalizar passe as cintas de segurança conforme a indicação a seguir.
+
+    Fixação para TV com borda convencional
+        Caso sua TV for um modelo convencional (bordas com o tamanho próximo ao da moldura): Parafuse as travas retas nos respectivos pontos de fixação, com a abertura maior virada para a trasiera da TV (para a passagem da cinta).
+
+    Fixação para TV com borda grossa  
+        Caso sua TV for um modelo mais antigo (bordas maiores que as da moldura): Parafuse as travas "L" alinhadas com a parte frontal da moldura nos respectivos pontos de fixação, com a abertura maior virada para a parte da frente da TV (para a passagem da cinta).
+
+    7 - Passe a cinta com catraca por dentro das aberturas da trava superior e inferior, de forma que a catraca fique de fácil acesso e que a sobra da corda fique para baixo conforme a figura abaixo. Repita o procedimento com todos os pares de travas (até 70" = 2 cintas) (75" ou superior = 3 cintas).
+
+    8 - Regule o nível de tensão nas travas puxando a corda e travando a catraca. Aplique uma tensão moderada de forma que a cinta fique esticada sem pressionar excessivamente as travas.
+
+    9 - Deixe a TV com a parte da tela para baixo em uma superfície plana durante 24h para fixação completa da fita dupla face. Após, ligue o cabo USB da moldura no PC e o cabo HDMI do PC na Televisão.
+
+    10 - Realize a fixação da TV touchscreen no suporte de parede ou no rack móvel UnionBoard. Faça o download do software e calibrador em seu computador. Se necesssário, realize a calibração do touchscreen.
+
+    Dúvidas Frequentes
+
+    1 - Onde posso fazer o download do Software UnionBoard?
+        Você pode solicitar o link de download do software através de nosso whatsapp: (11) 2946-2668 ou acesse o site: www.showdeimagem.com.br/downloads. as molduras acompanham o UnionBoard Software Pro e Color. O UnionBoard Software será disponibilizado para instituições de ensino.
+    
+    2 - Como faço a calibração para o modo retrato (vertical)?
+        Para utilizar a Moldura na vertical, é necessário realizar a instalação normalmente conforme o passo a passo informado no manual. Após a moldura instalada na TV, rotacione para o modo retrato de forma que o logo da UnionBoard fique virado para cima e o conector USB fique para baixo. Após, mude a orientação da tela no windows para o modo retrato.
+    
+    3 - Como é realizada a conexão da moldura interativa?
+        |: Realize a fixação da Moldura interativa na Televisão. ||: Conecte o Cabo USB da moldura no computador, para habilitar o toque. |||: Conecte o cabo de Imagem (HDMI ou VGA) do computador na Televisão. IV: Pronto, ssua televisão agora é touchscreen.
+    
+    4 - Moldura não reconhece o toque.
+        |: Verifique se as conexões estão corretas. ||: Conecte a Moldura direto no PC sem extensões USB. |||: Reinicie o PC. IV: Se precisar utilizar uma extensão USB, opte por uma ativa.
