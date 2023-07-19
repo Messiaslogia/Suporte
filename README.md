@@ -26,11 +26,15 @@ Para instalar o Site de suporte, siga estas etapas:
 ```
 npm i
 ```
+> Após a instalação das dependências importe o o arquivo `suporte.sql` para dentro do seu banco de dados.
 
+> Acesse o arquivos `ConfiguracaoDatabase.js` e mude os campos:
+> `Host, user, password e database` Coloque os dados de seu banco de dados
+ 
 ## ☕ Usando Site de suporte
 
 Para usar <nome_do_projeto>, siga estas etapas:
-
+>
 ```
 <exemplo_de_uso>
 ```
