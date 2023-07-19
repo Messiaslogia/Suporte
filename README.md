@@ -48,7 +48,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/Messiaslogia">
         <img src="./assets/img/perfil.jfif" width="100px;" alt=""/><br>
         <sub>
           <b>Messias G</b>
