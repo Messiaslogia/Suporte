@@ -30,16 +30,20 @@ npm i
 
 > Acesse o arquivos `ConfiguracaoDatabase.js` e mude os campos:
 > `Host, user, password e database` Coloque os dados de seu banco de dados
+
+```
+npm start
+```
  
 ## ☕ Usando Site de suporte
 
-Para usar <nome_do_projeto>, siga estas etapas:
->
-```
-<exemplo_de_uso>
-```
+Para usar o Site de suporte, siga estas etapas:
+>Após a instalação das dependêcias você pode configurar os produtos para seu suporte:
+>Modifique os campos do banco de dados:
+<img src="./assets/img/inicial.png" alt="Exemplo imagem" width="500" height="500">
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+>Não se esqueça de acionar novas rotas e controllers para os novos produtos
+<img src="./assets/img/inicial.png" alt="Exemplo imagem" width="500" height="500">
 
 ## 🤝 Colaboradores
 
