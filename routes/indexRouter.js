@@ -1,13 +1,10 @@
+const IndexController = require('../controllers/indexController')
+const indexController = new IndexController()
+
 var express = require('express');
 var router = express.Router();
 
-// var Moldura = require('../models/moldura.js')
-
-
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
+router.get('/', indexController.carregarIndex);
 
 module.exports = router;

@@ -3,7 +3,7 @@ const mySql = require('mysql2');
  function conexaoDB() {
     const conexao =  mySql.createConnection({
         host: 'localhost',
-        user: 'root',
+        user: '',
         password: '',
         database: 'suporte'
     });

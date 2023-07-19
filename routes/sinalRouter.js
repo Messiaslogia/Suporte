@@ -1,13 +1,11 @@
+const SinalController = require('../controllers/sinalController')
+const sinalController = new SinalController()
+
 var express = require('express');
 var router = express.Router();
-// var Sinal = require('../models/sinal.js')
 
-
-/* GET home page. */
-
-router.get('/index', (req,res)=>{
-  res.render('sinal/index')
-})
+/* GET home page sinal. */
+router.get('/index', sinalController.carregarIndex)
 
 
 module.exports = router;
