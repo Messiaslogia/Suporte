@@ -49,9 +49,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./assets/img/perfil.jfif" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="./assets/img/perfil.jfif" width="100px;" alt=""/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Messias G</b>
         </sub>
       </a>
     </td>
