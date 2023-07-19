@@ -18,7 +18,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente do `<NodeJS / MySQL>`
 * Você tem uma máquina `<Windows / Linux / Mac>`.
   
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Site de suporte
 
 Para instalar o <nome_do_projeto>, siga estas etapas:
 
