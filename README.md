@@ -20,10 +20,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
   
 ## 🚀 Instalando Site de suporte
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-## 🚀 Instalando Site de suporte
-
 Para instalar o Site de suporte, siga estas etapas:
 
 > Abra o terminal no diretório raiz do projeto e digite:
