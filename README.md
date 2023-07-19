@@ -40,17 +40,11 @@ npm start
 Para usar o Site de suporte, siga estas etapas:
 >Após a instalação das dependêcias você pode configurar os produtos para seu suporte:
 >Modifique os campos do banco de dados:
-<<<<<<< HEAD
-<img src="./assets/img/banco.PNG" alt="Exemplo imagem" width="300" height="300">
+
+<img src="./assets/img/banco.PNG" alt="Exemplo imagem" width="100" height="300">
 
 >Não se esqueça de acionar novas rotas e controllers para os novos produtos
 <img src="./assets/img/Routes.PNG" alt="Exemplo imagem" width="500" height="500">
-=======
-<img src="./assets/img/inicial.png" alt="Exemplo imagem" width="500" height="500">
-
->Não se esqueça de acionar novas rotas e controllers para os novos produtos
-<img src="./assets/img/inicial.png" alt="Exemplo imagem" width="500" height="500">
->>>>>>> f17023f07beec8f6c6b4eec6c3a504bfb78d379b
 
 ## 🤝 Colaboradores
 
