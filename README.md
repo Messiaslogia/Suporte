@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="./assets/img/inicial.png" alt="Exemplo imagem"> <img src="./assets/img/suporte.png" alt="Exemplo imagem"> 
+<img src="./assets/img/inicial.png" alt="Exemplo imagem" width="300" height="300"> <img src="./assets/img/suporte.png" alt="Exemplo imagem"> 
 
 > Site de suporte para produtos diversos:
 > O site tem como objetivo fornecer uma interface intuitiva para empresas que necessitem de um suporte para seus produtos. Assim fornecendo o melhor apoio para seus clientes
