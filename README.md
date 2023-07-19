@@ -44,7 +44,7 @@ Para usar o Site de suporte, siga estas etapas:
 <img src="./assets/img/banco.PNG" alt="Exemplo imagem" width="300" height="80">
 
 >Não se esqueça de acionar novas rotas e controllers para os novos produtos
-<img src="./assets/img/Routes.PNG" alt="Exemplo imagem" width="500" height="500">
+<img src="./assets/img/Routes.PNG" alt="Exemplo imagem" width="300" height="80">
 
 ## 🤝 Colaboradores
 
