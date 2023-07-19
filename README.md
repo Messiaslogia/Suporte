@@ -41,7 +41,7 @@ Para usar o Site de suporte, siga estas etapas:
 >Após a instalação das dependêcias você pode configurar os produtos para seu suporte:
 >Modifique os campos do banco de dados:
 
-<img src="./assets/img/banco.PNG" alt="Exemplo imagem" width="100" height="300">
+<img src="./assets/img/banco.PNG" alt="Exemplo imagem" width="300" height="80">
 
 >Não se esqueça de acionar novas rotas e controllers para os novos produtos
 <img src="./assets/img/Routes.PNG" alt="Exemplo imagem" width="500" height="500">
